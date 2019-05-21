@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/mvkravchenko/calculator-test.svg?branch=master)](https://travis-ci.com/mvkravchenko/calculator-test)
+[![codecov](https://codecov.io/gh/mvkravchenko/calculator-test/branch/master/graph/badge.svg)](https://codecov.io/gh/mvkravchenko/calculator-test)
+
 # calculator-test-project
 
 Проект представляет собой калькулятор для деления 2х чисел.

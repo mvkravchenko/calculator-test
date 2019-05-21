@@ -1,0 +1,13 @@
+language: java
+jdk: openjdk8
+install: true
+env:
+  global:
+    CODECOV_TOKEN="c59a9a0d-66de-409f-89df-ca6e9b3baea2"
+script: mvn clean install
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+cache:
+  directories:
+    - $HOME/.m2
+
